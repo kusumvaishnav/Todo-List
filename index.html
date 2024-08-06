@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1> Welcome My ToDo List</h1>
+        <div class="inputs">
+            <input type="text" placeholder="Enter your Task" id="inp">
+            <input type="date" id="date">
+            <button class="button" onclick="addTask()">Add</button>
+            <button class="button" onclick="resetTasks()">Reset</button>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search tasks...">
+        </div>
+        <div class="text"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
